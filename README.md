@@ -16,3 +16,6 @@ PyMultiScan is a powerful, versatile port scanning tool written in Python, desig
 - It's recommended to use pycharm virtual environment for Python projects to avoid conflicts with other package versions.
 
 
+### Install the required dependencies:
+
+- This project requires the IPy and socket library, which can be installed using pip. 
