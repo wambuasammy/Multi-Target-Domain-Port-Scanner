@@ -1,21 +1,19 @@
 # Multi-Target-Domain-Port-Scanner
 
-## About Multi-Target-Domain-Port-Scanner
-PyMultiScan is a powerful, versatile port scanning tool written in Python, designed for network administrators, cybersecurity enthusiasts, and professionals. It allows for scanning multiple targets simultaneously and converts domain names to IP addresses, offering a comprehensive approach to network security.
 
-### Key Features
-- Scan multiple targets at once, either specified as IP addresses or domain names.
-- Automatic resolution of domain names to their corresponding IP addresses for efficient scanning.
-- User-friendly interface, making it accessible for both beginners and experienced users.
-- Optimized for performance, providing fast scanning capabilities across diverse network environments.
+## Description
+This is a simple Python script for scanning open ports on one or multiple targets using multithreading. The script prompts the user to input target IP addresses or hostnames, as well as the range of ports to scan. It then scans each target for open ports within the specified range and displays the results.
 
-## Getting Started
+## Features
+- Scans one or multiple targets for open ports
+- Multithreaded port scanning for improved performance
+- Supports specifying a range of ports to scan
+- Prints open ports for each target after scanning
 
-### Prerequisites
+## Requirements
 - Python 3.12
-- It's recommended to use pycharm virtual environment for Python projects to avoid conflicts with other package versions.
+- IPy library (install using `pip install IPy`)
 
+## Contributing
+-Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your       changes.
 
-### Install the required dependencies:
-
-- This project requires the IPy and socket library, which can be installed using pip. 
